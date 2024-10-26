@@ -32,6 +32,8 @@ function addEntry() {
     targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
 }
 
+console.log(entryDropdown.value);
+
 function calculateCalories(e) {
     e.preventDefault();
     isError = false;
